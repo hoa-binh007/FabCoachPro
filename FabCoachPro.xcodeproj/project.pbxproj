@@ -6,17 +6,37 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		5B7CDA142F4CD79700530F8B /* FabCoachPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FabCoachPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		5B7BD24B2F4F35C000F1896D /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7BD24A2F4F35C000F1896D /* Area.swift */; };
+		5B7CDA2D2F4CE15500530F8B /* BundleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7CDA2C2F4CE15500530F8B /* BundleLoader.swift */; };
+		5B7CDA2F2F4CE19D00530F8B /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7CDA2E2F4CE19D00530F8B /* AppStore.swift */; };
+		5B7CDA312F4CE1F000530F8B /* questions.json in Sources */ = {isa = PBXBuildFile; fileRef = 5B7CDA302F4CE1E600530F8B /* questions.json */; };
+		5B7CDA332F4CE25700530F8B /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7CDA322F4CE25700530F8B /* RootTabView.swift */; };
+		5B7CDA352F4CE30400530F8B /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7CDA342F4CE30400530F8B /* LearnView.swift */; };
+		5B7CDA372F4CE33800530F8B /* ExamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7CDA362F4CE33800530F8B /* ExamView.swift */; };
+		5B7CDA392F4CE37600530F8B /* WeaknessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7CDA382F4CE37600530F8B /* WeaknessView.swift */; };
+		5B7CDA3B2F4CE3AD00530F8B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7CDA3A2F4CE3AD00530F8B /* ProfileView.swift */; };
+		5B7CDA3D2F4CE7CE00530F8B /* FabCoachProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7CDA3C2F4CE7CE00530F8B /* FabCoachProApp.swift */; };
+		5B8CE0BA2F50144300BEEFC9 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B7CDA302F4CE1E600530F8B /* questions.json */; };
+		5BEA6C5E2F4DE47200A8D222 /* QuestionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA6C5D2F4DE47200A8D222 /* QuestionCardView.swift */; };
+		5BEA6C602F4ED9AA00A8D222 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA6C5F2F4ED9AA00A8D222 /* Question.swift */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		5B7CDA162F4CD79700530F8B /* FabCoachPro */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FabCoachPro;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		5B7BD24A2F4F35C000F1896D /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		5B7CDA142F4CD79700530F8B /* FabCoachPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FabCoachPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7CDA2C2F4CE15500530F8B /* BundleLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleLoader.swift; sourceTree = "<group>"; };
+		5B7CDA2E2F4CE19D00530F8B /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		5B7CDA302F4CE1E600530F8B /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		5B7CDA322F4CE25700530F8B /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		5B7CDA342F4CE30400530F8B /* LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
+		5B7CDA362F4CE33800530F8B /* ExamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamView.swift; sourceTree = "<group>"; };
+		5B7CDA382F4CE37600530F8B /* WeaknessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaknessView.swift; sourceTree = "<group>"; };
+		5B7CDA3A2F4CE3AD00530F8B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		5B7CDA3C2F4CE7CE00530F8B /* FabCoachProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabCoachProApp.swift; sourceTree = "<group>"; };
+		5BEA6C5D2F4DE47200A8D222 /* QuestionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCardView.swift; sourceTree = "<group>"; };
+		5BEA6C5F2F4ED9AA00A8D222 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5B7CDA112F4CD79700530F8B /* Frameworks */ = {
@@ -32,8 +52,8 @@
 		5B7CDA0B2F4CD79700530F8B = {
 			isa = PBXGroup;
 			children = (
-				5B7CDA162F4CD79700530F8B /* FabCoachPro */,
 				5B7CDA152F4CD79700530F8B /* Products */,
+				5B7CDA242F4CDF6100530F8B /* FabCoachPro */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +63,57 @@
 				5B7CDA142F4CD79700530F8B /* FabCoachPro.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5B7CDA242F4CDF6100530F8B /* FabCoachPro */ = {
+			isa = PBXGroup;
+			children = (
+				5B7CDA282F4CDFDA00530F8B /* Views */,
+				5B7CDA272F4CDFBA00530F8B /* ViewModels */,
+				5B7CDA262F4CDF8E00530F8B /* Data */,
+				5B7CDA252F4CDF7900530F8B /* Models */,
+				5B7CDA3C2F4CE7CE00530F8B /* FabCoachProApp.swift */,
+			);
+			path = FabCoachPro;
+			sourceTree = "<group>";
+		};
+		5B7CDA252F4CDF7900530F8B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5BEA6C5F2F4ED9AA00A8D222 /* Question.swift */,
+				5B7BD24A2F4F35C000F1896D /* Area.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5B7CDA262F4CDF8E00530F8B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5B7CDA2C2F4CE15500530F8B /* BundleLoader.swift */,
+				5B7CDA302F4CE1E600530F8B /* questions.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5B7CDA272F4CDFBA00530F8B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5B7CDA2E2F4CE19D00530F8B /* AppStore.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5B7CDA282F4CDFDA00530F8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B7CDA322F4CE25700530F8B /* RootTabView.swift */,
+				5B7CDA342F4CE30400530F8B /* LearnView.swift */,
+				5B7CDA362F4CE33800530F8B /* ExamView.swift */,
+				5B7CDA382F4CE37600530F8B /* WeaknessView.swift */,
+				5B7CDA3A2F4CE3AD00530F8B /* ProfileView.swift */,
+				5BEA6C5D2F4DE47200A8D222 /* QuestionCardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +130,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				5B7CDA162F4CD79700530F8B /* FabCoachPro */,
 			);
 			name = FabCoachPro;
 			packageProductDependencies = (
@@ -82,6 +150,7 @@
 				TargetAttributes = {
 					5B7CDA132F4CD79700530F8B = {
 						CreatedOnToolsVersion = 26.2;
+						LastSwiftMigration = 2620;
 					};
 				};
 			};
@@ -109,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8CE0BA2F50144300BEEFC9 /* questions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +189,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7CDA372F4CE33800530F8B /* ExamView.swift in Sources */,
+				5B7CDA3B2F4CE3AD00530F8B /* ProfileView.swift in Sources */,
+				5B7CDA392F4CE37600530F8B /* WeaknessView.swift in Sources */,
+				5B7CDA2F2F4CE19D00530F8B /* AppStore.swift in Sources */,
+				5B7CDA352F4CE30400530F8B /* LearnView.swift in Sources */,
+				5B7CDA332F4CE25700530F8B /* RootTabView.swift in Sources */,
+				5B7CDA3D2F4CE7CE00530F8B /* FabCoachProApp.swift in Sources */,
+				5B7CDA2D2F4CE15500530F8B /* BundleLoader.swift in Sources */,
+				5B7CDA312F4CE1F000530F8B /* questions.json in Sources */,
+				5BEA6C602F4ED9AA00A8D222 /* Question.swift in Sources */,
+				5B7BD24B2F4F35C000F1896D /* Area.swift in Sources */,
+				5BEA6C5E2F4DE47200A8D222 /* QuestionCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +333,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LMQ45AF7J7;
@@ -272,6 +355,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -283,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LMQ45AF7J7;

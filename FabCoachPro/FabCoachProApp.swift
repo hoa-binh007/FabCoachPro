@@ -1,17 +1,18 @@
-//
-//  FabCoachProApp.swift
-//  FabCoachPro
-//
-//  Created by Hoa-Binh Phan on 24.02.26.
-//
-
 import SwiftUI
 
 @main
 struct FabCoachProApp: App {
+    @StateObject private var store = AppStore()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootTabView()
+                .environmentObject(store)
+                .onAppear {
+                    store.load()
+                }
         }
     }
+    
+
 }
